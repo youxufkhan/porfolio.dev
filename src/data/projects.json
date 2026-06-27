@@ -1,5 +1,14 @@
 [
   {
+    "title": "PractiCal",
+    "domain": "Food & Beverage / Delivery",
+    "description": "PractiCal is a custom meal plan and food delivery service based in the UAE, designed to accommodate busy and unpredictable lifestyles with highly personalized nutrition.",
+    "contribution": "Leading backend development and architecture, ensuring scalable API performance, robust data management, and seamless integration for order and delivery logistics.",
+    "link": "https://practical.me/",
+    "logoImage": "/practical.png",
+    "tags": ["BACKEND", "NODEJS"]
+  },
+  {
     "title": "Canary7",
     "domain": "Warehouse Management System",
     "description": "Canary7 is the definitive WMS system that allows you streamline all of your fulfilment operations by managing your staff, inventory, order management, picking, putaway, shipping, returns and more.",
