@@ -8,7 +8,7 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "pdeploy": "astro check && astro build && npx gh-pages -d dist -r https://github.com/youxufkhan/youxufkhan.github.io.git"
+    "pdeploy": "astro check && astro build && npx gh-pages -d dist -r git@github.com:youxufkhan/youxufkhan.github.io.git"
   },
   "dependencies": {
     "@astrojs/check": "0.5.6",
