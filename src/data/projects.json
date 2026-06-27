@@ -1,17 +1,47 @@
 [
   {
-    "title": "SVGL - A beautiful library with SVG logos",
-    "description": "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-    "link": "https://svgl.vercel.app/",
-    "github": "https://github.com/pheralb/svgl",
-    "image": "/projects/svgl.webp",
-    "tags": ["NEXT", "TAILWIND"]
+    "title": "Canary7",
+    "domain": "Warehouse Management System",
+    "description": "Canary7 is the definitive WMS system that allows you streamline all of your fulfilment operations by managing your staff, inventory, order management, picking, putaway, shipping, returns and more.",
+    "contribution": "Engineered the entire system from the ground up utilizing Angular and Yii2, leading its architectural transformation to a scalable microservices architecture. Implemented a multi-tenant system and integrated third-party APIs to interface with automated picking cranes.",
+    "link": "https://www.canary7.com/",
+    "logoImage": "https://inspired-star-7c87bc5baa.media.strapiapp.com/Canary7_Logo_01_1_copy_0cbf59092e.webp",
+    "tags": ["ANGULAR", "NODEJS", "YII2", "MYSQL", "MONGODB", "REDIS", "AWS"]
   },
   {
-    "title": "AdventJS - Retos de programación con JavaScript y TypeScript",
-    "description": "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS.",
-    "link": "https://adventjs.dev",
-    "image": "/projects/adventjs.webp",
-    "tags": ["NEXT", "TAILWIND"]
+    "title": "Bykea",
+    "domain": "Ride Hailing/Transport",
+    "description": "Bykea is your everyday, everything platform. Bykea offers rides on motorbikes, rickshaws, and cars at the lowest fares in Pakistan.",
+    "contribution": "Engineered core microservices (Fastify, Go) including a centralized address service and card payments gateway. Led the Delivery and Payments vertical, refactoring slow APIs and developing bidding features that were instrumental in achieving company profitability.",
+    "link": "https://bykea.com/",
+    "logoImage": "https://inspired-star-7c87bc5baa.media.strapiapp.com/bykea_logo_89fe9967df.jpeg",
+    "tags": ["NODEJS", "FASTIFY", "GO", "POSTGRESQL", "MONGODB", "REDIS", "AWS"]
+  },
+  {
+    "title": "YouxufkhanNg",
+    "domain": "Portfolio",
+    "description": "A stunning Matrix-themed portfolio built with Angular and powered by AI.",
+    "contribution": "Designed the modular component architecture in Angular, set up the Strapi CMS backend, and strategically leveraged GenAI tools for rapid code generation while handling prompt engineering, refinement, and UI polish.",
+    "github": "https://github.com/youxufkhan/youxufkhan-ng",
+    "logoImage": "https://inspired-star-7c87bc5baa.media.strapiapp.com/favicon_76ecd711a8.svg",
+    "tags": ["ANGULAR", "TYPESCRIPT", "NODEJS", "STRAPI", "TAILWIND"]
+  },
+  {
+    "title": "Express Boilerplate Project",
+    "domain": "Boilerplate (Personal)",
+    "description": "A boilerplate project for creating Express applications, including necessary files and dependencies to get started quickly.",
+    "contribution": "Engineered a ready-to-use foundation for new Node.js apps with pre-configured database connections, environment configuration, and logging to eliminate repetitive setup tasks.",
+    "github": "https://github.com/youxufkhan/express-boilerplate",
+    "logoImage": "https://inspired-star-7c87bc5baa.media.strapiapp.com/136_1363736_express_js_icon_png_transparent_png_1ae711ff5e.png",
+    "tags": ["EXPRESSJS", "NODEJS", "POSTGRESQL"]
+  },
+  {
+    "title": "ValueLink Core",
+    "domain": "Appraisal Management System",
+    "description": "ValueLink Core enables AMCs to streamline their appraisal process by automatically assigning orders, managing vendor panels, and delivering reports directly into the system.",
+    "contribution": "Led the strategic modernization of the application, planning the transition from legacy architecture to a modern stack. Integrated third-party APIs for seamless order inflow and resolved critical production bugs.",
+    "link": "https://valuelinksoftware.com/products/core",
+    "logoImage": "https://inspired-star-7c87bc5baa.media.strapiapp.com/vl_core_logo_f46957926d.svg",
+    "tags": ["DOTNET", "SQL", "REDIS", "AZURE"]
   }
 ]

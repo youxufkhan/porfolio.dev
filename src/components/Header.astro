@@ -3,24 +3,24 @@ import ThemeToggle from "./ThemeToggle.astro"
 
 const navItems = [
   {
-    title: "Experiencia",
-    label: "experiencia",
-    url: "/#experiencia",
+    title: "Experience",
+    label: "experience",
+    url: "/#experience",
   },
   {
-    title: "Proyectos",
-    label: "proyectos",
-    url: "/#proyectos",
+    title: "Projects",
+    label: "projects",
+    url: "/#projects",
   },
   {
-    title: "Sobre mí",
-    label: "sobre-mi",
-    url: "/#sobre-mi",
+    title: "About",
+    label: "about-me",
+    url: "/#about-me",
   },
   {
-    title: "Contacto",
-    label: "contacto",
-    url: "mailto:miduga@gmail.com",
+    title: "Contact",
+    label: "contact",
+    url: "mailto:m.youxuf@gmail.com",
   },
 ]
 ---
@@ -34,7 +34,7 @@ const navItems = [
     {
       navItems.map((link) => (
         <a
-          class="nav-link relative text-xs sm:text-sm block px-1.5 sm:px-3 py-2 sm:py-1.5 rounded-full transition-colors duration-200 hover:text-yellow-500 dark:hover:text-yellow-400"
+          class="nav-link relative text-xs sm:text-sm block px-1.5 sm:px-3 py-2 sm:py-1.5 rounded-full transition-colors duration-200 hover:text-gray-900 dark:hover:text-white"
           aria-label={link.label}
           href={link.url}
         >
@@ -58,10 +58,10 @@ const navItems = [
         if (entry.isIntersecting) {
           navItems.forEach((item) => {
             if (item.getAttribute("aria-label") == entry.target.id) {
-              item.classList.add("text-yellow-500", "dark:text-yellow-400", "bg-yellow-400/10")
+              item.classList.add("text-gray-900", "dark:text-white", "bg-gray-100", "dark:bg-white/10")
               item.classList.remove("text-gray-600", "dark:text-gray-300")
             } else {
-              item.classList.remove("text-yellow-500", "dark:text-yellow-400", "bg-yellow-400/10")
+              item.classList.remove("text-gray-900", "dark:text-white", "bg-gray-100", "dark:bg-white/10")
               item.classList.add("text-gray-600", "dark:text-gray-300")
             }
           })
@@ -102,7 +102,7 @@ const navItems = [
     @apply dark:bg-gray-900/80 bg-white/60;
   }
 
-  .nav-link.text-yellow-500 {
+  .nav-link.text-gray-900 {
     @apply font-semibold;
   }
 
@@ -111,7 +111,7 @@ const navItems = [
       @apply dark:bg-gray-900/0 bg-white/0 border-transparent shadow-none;
     }
     to {
-      @apply shadow-lg ring-1 backdrop-blur-md ring-white/10 dark:ring-white/5 border-gray-200/20 dark:border-white/5;
+      @apply shadow-lg ring-1 backdrop-blur-md ring-gray-200/50 dark:ring-white/5 border-gray-200/20 dark:border-white/5;
     }
   }
 </style>

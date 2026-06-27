@@ -1,5 +1,5 @@
 ---
-const personalImageAlt = "Miguel Ángel"
+const personalImageAlt = "Muhammad Yousuf Iqbal Khan"
 import Badge from "@/components/Badge.astro"
 import GitHubIcon from "@/components/icons/GitHub.astro"
 import LinkedInIcon from "@/components/icons/LinkedIn.astro"
@@ -10,57 +10,49 @@ import SocialPill from "@/components/SocialPill.astro"
 
 <div class="max-w-xl">
   <div class="anim-fade-in flex gap-4 mb-6 items-center">
-    <!-- Avatar with ambient glow -->
     <div class="relative flex-shrink-0">
-      <div
-        class="absolute inset-0 rounded-full bg-yellow-400/30 dark:bg-yellow-400/20 blur-xl scale-125"
-        aria-hidden="true"
-      >
-      </div>
       <img
-        class="relative rounded-full shadow-2xl size-20 ring-2 ring-yellow-400/60 ring-offset-2 ring-offset-gray-50 dark:ring-offset-gray-950"
-        src="/midudev.webp"
+        class="relative rounded-full shadow-[0_20px_40px_-15px_rgba(0,0,0,0.1)] size-20 ring-1 ring-gray-200 dark:ring-white/10"
+        src="/optimized.jpg"
         alt={personalImageAlt}
+        style="object-fit: cover;"
       />
     </div>
     <a
-      href="https://linkedin.com/in/midudev"
+      href="mailto:m.youxuf@gmail.com"
       target="_blank"
       rel="noopener noreferrer"
-      class="flex items-center transition md:justify-center md:hover:scale-105"
+      class="flex items-center transition md:justify-center md:hover:scale-[0.98]"
     >
-      <Badge><SparklesIcon class="size-3" /> Disponible para trabajar</Badge>
+      <Badge><SparklesIcon class="size-3" /> Let's work together</Badge>
     </a>
   </div>
 
   <h1
-    class="anim-fade-in anim-delay-1 text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl dark:text-white"
+    class="anim-fade-in anim-delay-1 text-4xl md:text-5xl font-bold tracking-tight text-gray-900 dark:text-white leading-none"
   >
-    Hey, soy <span class="gradient-name">midudev</span>
+    I'm Yousuf Khan
   </h1>
 
   <p
-    class="anim-fade-in anim-delay-2 mt-6 text-xl text-gray-800 dark:[&>strong]:text-yellow-200 [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-gray-300"
+    class="anim-fade-in anim-delay-2 mt-6 text-xl text-gray-600 dark:text-gray-300 leading-relaxed max-w-[65ch] dark:[&>strong]:text-white [&>strong]:text-gray-900 [&>strong]:font-semibold"
   >
-    +15 años de experiencia. <strong
-      >Ingeniero de Software y Creador de Contenido sobre Programación</strong
-    > de Barcelona, España 🇪🇸. Especializado en el desarrollo de aplicaciones web
-    únicas.
+    Principal Software Engineer with <strong>8+ years</strong> building scalable microservices and high-performance APIs. Specialized in Node.js, Laravel, and robust backend architecture based in Karachi, Pakistan.
   </p>
 
   <nav
     class="anim-fade-in anim-delay-3 flex flex-wrap gap-4 mt-8"
-    aria-label="Redes sociales y contacto"
+    aria-label="Social networks and contact"
   >
-    <SocialPill href="mailto:miduga@gmail.com">
+    <SocialPill href="mailto:m.youxuf@gmail.com">
       <MailIcon class="size-4" />
-      Contáctame
+      Contact Me
     </SocialPill>
-    <SocialPill href="https://linkedin.com/in/midudev">
+    <SocialPill href="https://linkedin.com/in/yousufiqbalkhan/">
       <LinkedInIcon class="size-4" />
       LinkedIn
     </SocialPill>
-    <SocialPill href="https://github.com/midudev">
+    <SocialPill href="https://github.com/youxufkhan">
       <GitHubIcon class="size-4" />
       GitHub
     </SocialPill>
